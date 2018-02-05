@@ -1,9 +1,9 @@
-package org.researchsuite.rsrp;
+package org.researchsuite.rsrp.Core;
+
+import org.researchsuite.rsrp.Core.RSRPFrontEndServiceProvider.spi.RSRPFrontEnd;
 
 import java.util.Map;
 import java.util.UUID;
-
-import org.researchsuite.rsrp.RSRPFrontEndServiceProvider.spi.RSRPFrontEnd;
 
 /**
  * Created by jameskizer on 2/4/17.

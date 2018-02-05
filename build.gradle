@@ -21,6 +21,7 @@ allprojects {
         google()
         jcenter()
         maven { url "https://jitpack.io" } // for MPAndroidChard, not on jcenter yet
+        maven { url "https://dl.bintray.com/edu-cornell-tech-foundry/SDLRSX" }
     }
 }
 

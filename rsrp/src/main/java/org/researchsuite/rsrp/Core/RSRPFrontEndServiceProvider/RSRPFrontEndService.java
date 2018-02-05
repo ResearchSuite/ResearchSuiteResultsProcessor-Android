@@ -1,12 +1,13 @@
-package org.researchsuite.rsrp.RSRPFrontEndServiceProvider;
+package org.researchsuite.rsrp.Core.RSRPFrontEndServiceProvider;
 
 import android.support.annotation.Nullable;
 
-import com.google.gson.JsonObject;
-
 import org.researchstack.backbone.result.StepResult;
 import org.researchstack.backbone.result.TaskResult;
-import org.researchstack.backbone.step.Step;
+import org.researchsuite.rsrp.Core.RSRPFrontEndServiceProvider.spi.RSRPFrontEnd;
+import org.researchsuite.rsrp.Core.RSRPIntermediateResult;
+import org.researchsuite.rsrp.Core.RSRPResultTransform;
+import org.researchsuite.rsrp.Core.RSRPResultTransformInputMapping;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -16,11 +17,6 @@ import java.util.Map;
 import java.util.ServiceConfigurationError;
 import java.util.ServiceLoader;
 import java.util.UUID;
-
-import org.researchsuite.rsrp.RSRPFrontEndServiceProvider.spi.RSRPFrontEnd;
-import org.researchsuite.rsrp.RSRPIntermediateResult;
-import org.researchsuite.rsrp.RSRPResultTransform;
-import org.researchsuite.rsrp.RSRPResultTransformInputMapping;
 
 
 /**

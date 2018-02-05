@@ -1,4 +1,4 @@
-package org.researchsuite.rsrp;
+package org.researchsuite.rsrp.Core;
 
 import android.content.Context;
 
