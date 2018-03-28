@@ -1,16 +1,13 @@
-package org.researchsuite.rsrp;
+package org.researchsuite.rsrp.Core;
 
 import android.content.Context;
 import android.util.Log;
 
-import org.researchstack.backbone.ResourcePathManager;
 import org.researchstack.backbone.result.TaskResult;
+import org.researchsuite.rsrp.Core.RSRPFrontEndServiceProvider.RSRPFrontEndService;
 
 import java.util.List;
 import java.util.UUID;
-
-import org.researchsuite.rsrp.RSRPFrontEndServiceProvider.RSRPFrontEndService;
-import org.researchsuite.rsrp.RSRPFrontEndServiceProvider.spi.RSRPFrontEnd;
 
 /**
  * Created by jameskizer on 2/3/17.

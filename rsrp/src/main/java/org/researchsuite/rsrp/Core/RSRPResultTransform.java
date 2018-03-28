@@ -1,4 +1,4 @@
-package org.researchsuite.rsrp;
+package org.researchsuite.rsrp.Core;
 
 import java.io.Serializable;
 import java.util.List;
