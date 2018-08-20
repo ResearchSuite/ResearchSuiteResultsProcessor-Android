@@ -16,7 +16,7 @@ ext {
   siteUrl = 'https://github.com/ResearchSuite/ResearchSuiteResultsProcessor-Android'
   gitUrl = 'https://github.com/ResearchSuite/ResearchSuiteResultsProcessor-Android.git'
 
-  libraryVersion = POM_VERSION
+  libraryVersion = lib_version
 
     Properties properties = new Properties()
     properties.load(project.rootProject.file('local.properties').newDataInputStream())
